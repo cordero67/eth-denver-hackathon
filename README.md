@@ -36,7 +36,7 @@ To deploy `DAOToken.sol`, please follow these preliminary steps before compiling
    
 Contracts can be compiled using hardhat without the dev node:
 
-      `npx hardhat compile`
+      npx hardhat compile
 
 6) Deploy `DAOToken.sol` contract to local Hardhat instance
 
