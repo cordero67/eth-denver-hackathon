@@ -8,11 +8,11 @@ Node version 14.x
 
 1) Initiate a node project with a `package.json`
    
-      npm init
+      `npm init`
 
 2) Install Hardhat
 
-      npm install --save-dev hardhat
+      `npm install --save-dev hardhat`
 
 This will install Hardhat v2.8.0
 
@@ -24,7 +24,7 @@ This will install Hardhat v2.8.0
 
 4) Install Hardhat project dependencies including `hardhat-waffle` and `hardhat-ethers`
 
-      Do you want to install this sample project's dependencies with npm (@nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers        @nomiclabs/hardhat-etherscan dotenv eslint eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage)? (Y/n) ‣ y
+      `Do you want to install this sample project's dependencies with npm (@nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers                @nomiclabs/hardhat-etherscan dotenv eslint eslint-config-prettier eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-prettier            eslint-plugin-promise hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage)? (Y/n) ‣ y`
 
 ***IMPORTANT***
 To deploy `DAOToken.sol`, please follow these preliminary steps before compiling:
@@ -36,10 +36,10 @@ To deploy `DAOToken.sol`, please follow these preliminary steps before compiling
    
 Contracts can be compiled using hardhat without the dev node:
 
-      npx hardhat compile
+      `npx hardhat compile`
 
 6) Deploy `DAOToken.sol` contract to local Hardhat instance
 
-      npx hardhat run scripts/deploy.js
+      `npx hardhat run scripts/deploy.js`
 
 We'll add Rinkeby compilation and deployment tomorrow to README.md
